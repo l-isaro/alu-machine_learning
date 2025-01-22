@@ -1,2 +1,5 @@
 def matrix_shape(matrix):
-    pass
+    ans = []
+
+    for i in range(len(matrix)):
+        ans.append(len(matrix[i]))
