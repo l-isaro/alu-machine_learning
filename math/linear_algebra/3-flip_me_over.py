@@ -19,8 +19,5 @@ def matrix_transpose(matrix):
     transpose = [[0 for _ in range(len(matrix))] for _ in range(len(matrix[0]))]
     for i in range(0, len(matrix)):
         for j in range(0, len(matrix)):
-            print(i, j)
             transpose[j][i] = matrix[i][j] 
     return transpose
-
-print(matrix_transpose([[1, 2], [3, 4]]))
